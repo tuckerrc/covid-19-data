@@ -3,12 +3,15 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>title</title>
+    <title>Multiple States | COVID-19 Charts</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.css" integrity="sha256-IvM9nJf/b5l2RoebiFno92E5ONttVyaEEsdemDC6iQA=" crossorigin="anonymous" />
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.js" integrity="sha256-8zyeSXm+yTvzUN1VgAOinFgaVFEFTyYzWShOy9w7WoQ=" crossorigin="anonymous"></script>
 
     <style type="text/css">
+        .nav {
+            margin-bottom: 1em;
+        }
         .box {
             display: flex;
             flex-wrap: wrap;
@@ -22,6 +25,7 @@
         #checkboxes {
             display: flex;
             flex-wrap: wrap;
+            margin-bottom: 1em;
         }
 
         .checkbox {
@@ -30,6 +34,10 @@
     </style>
   </head>
   <body>
+    <nav class="nav">
+        <span><a href="single.html">Single States</a></span>
+        <span><a>Multi States</a></span>
+    </nav>
     <div id="checkboxes"></div>
     <button id="submit">Submit</button>
     <div class="box">
