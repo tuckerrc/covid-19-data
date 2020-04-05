@@ -36,7 +36,7 @@ def main():
         }
         state_data[sd]
         count = count + 6
-    with open('docs/us-states.json', 'w') as output:
+    with open('us-states.json', 'w') as output:
         output.write(json.dumps(data))
 
 
