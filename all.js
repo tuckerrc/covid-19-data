@@ -239,7 +239,7 @@ function createNewDeathsBar(data, states) {
     });
 }
 
-function checkBoxes(states) {
+function checkBoxes(states, checked) {
     var checkboxes = document.getElementById('checkboxes');
     var list = states.sort();
     for (var i=0; i < list.length; i++) {
@@ -251,6 +251,9 @@ function checkBoxes(states) {
         checkbox.class = 'checkbox'
         checkbox.name = list[i];
         checkbox.value = list[i];
+        if (checked.indexOf(list[i]) > -1) {
+            checkbox.checked = true;
+        }
         checkbox.id = list[i].toLowerCase().replace(' ', '_')
 
         var label = document.createElement("label");
@@ -264,6 +267,7 @@ function checkBoxes(states) {
 }
 
 var data, cases_vs_delta, cases_time, cases_log, deaths_bar, cases_bar;
+var states = ['Virginia', 'Utah', 'Washington', 'Pennsylvania', 'New Mexico']
 fetch("us-states.json")
   .then(response => response.json())
   .then(json => {
@@ -276,7 +280,6 @@ fetch("us-states.json")
     return data;
   })
   .then(json => {
-    var states = ['Virginia', 'Utah', 'Washington', 'Pennsylvania', 'New Mexico']
     createCaseVsDelta(json, states )
     createCasesTimeseries(json, states)
     createCasesLogarithmic(json, states)
@@ -285,7 +288,7 @@ fetch("us-states.json")
     return json;
   })
   .then(json => {
-      checkBoxes(Object.keys(json));
+      checkBoxes(Object.keys(json), states);
       return json;
   })
   .then(json => {
