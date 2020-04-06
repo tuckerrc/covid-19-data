@@ -1,0 +1,349 @@
+function createCaseVsDelta(data, states) {
+    var ctx = document.getElementById('cases_vs_delta');
+    var datasets = []
+    for (var key in data) {
+        if (states.indexOf(key) > -1) {
+            var set = {
+                label: key,
+                borderColor: data[key].color,
+                fill: false,
+                data: data[key].data.map(x => {
+                    return {
+                        "x": x.cases,
+                        "y": x.c_delta,
+                    };
+                })
+            }
+            datasets.push(set);
+        }
+    }
+    cases_vs_delta = new Chart(ctx, {
+        type: 'line',
+        data: {
+            datasets: datasets,
+        },
+        options: {
+            title: {
+                display: true,
+                text: "Total Cases Vs New Cases"
+            },
+            scales: {
+                yAxes: [{
+                    type: 'logarithmic',
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'New Cases (log)'
+                    }
+                }],
+                xAxes: [{
+                    type: 'logarithmic',
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'Total Cases (log)'
+                    }
+                }]
+            }
+        }
+    });
+}
+
+function createCasesTimeseries(data, states) {
+    var ctx = document.getElementById('cases_time');
+    var datasets = []
+    for (var key in data) {
+        if (states.indexOf(key) > -1) {
+            var values = data[key].data.filter(x => x.cases >= 10)
+            var set = {
+                label: key,
+                borderColor: data[key].color,
+                fill: false,
+                data: values.map(x => x.cases)
+            }
+            datasets.push(set);
+        }
+    }
+    var longest = datasets.reduce( (acc, cur) => {
+        return acc.data.length > cur.data.length ? acc : cur;
+    })
+    var labels = Array.from(Array(longest.data.length).keys())
+    cases_time = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: datasets,
+        },
+        options: {
+            title: {
+                display: true,
+                text: "Total Cases"
+            },
+            scales: {
+                yAxes: [{
+                    type: 'linear',
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'Total Cases'
+                    }
+                }],
+                xAxes: [{
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'Days since atleast 10 cases'
+                    }
+                }]
+            }
+        }
+    });
+}
+
+function createCasesLogarithmic(data, states) {
+    var ctx = document.getElementById('cases_log');
+    var datasets = []
+    for (var key in data) {
+        if (states.indexOf(key) > -1) {
+            var values = data[key].data.filter(x => x.cases >= 10)
+            var set = {
+                label: key,
+                borderColor: data[key].color,
+                fill: false,
+                data: values.map(x => x.cases)
+            }
+            datasets.push(set);
+        }
+    }
+    var longest = datasets.reduce( (acc, cur) => {
+        return acc.data.length > cur.data.length ? acc : cur;
+    })
+    var labels = Array.from(Array(longest.data.length).keys())
+    cases_log = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: datasets,
+        },
+        options: {
+            title: {
+                display: true,
+                text: "Total Cases (logarithmic)",
+            },
+            scales: {
+                yAxes: [{
+                    type: 'logarithmic',
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'New Cases'
+                    }
+                }],
+                xAxes: [{
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'Days since atleast 10 cases'
+                    }
+                }]
+            }
+        }
+    });
+}
+
+function createNewCasesBar(data, states) {
+    var ctx = document.getElementById('cases_bar');
+    var datasets = []
+    for (var key in data) {
+        if (states.indexOf(key) > -1) {
+            var values = data[key].data.filter(x => x.cases >= 10)
+            var set = {
+                label: key,
+                backgroundColor: data[key].color,
+                data: values.map(x => x.c_delta)
+            }
+            datasets.push(set);
+        }
+    }
+    var longest = datasets.reduce( (acc, cur) => {
+        return acc.data.length > cur.data.length ? acc : cur;
+    })
+    var labels = Array.from(Array(longest.data.length).keys())
+    cases_bar = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: datasets,
+        },
+        options: {
+            title: {
+                display: true,
+                text: "New Cases (per day)"
+            },
+            scales: {
+                yAxes: [{
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'New Cases'
+                    }
+                }],
+                xAxes: [{
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'Days since atleast 10 cases'
+                    }
+                }]
+            }
+        }
+    });
+}
+
+function createNewDeathsBar(data, states) {
+    var ctx = document.getElementById('deaths_bar');
+    var datasets = []
+    for (var key in data) {
+        if (states.indexOf(key) > -1) {
+            var values = data[key].data.filter(x => x.cases >= 10)
+            var set = {
+                label: key,
+                backgroundColor: data[key].color,
+                data: values.map(x => x.d_delta)
+            }
+            datasets.push(set);
+        }
+    }
+    var longest = datasets.reduce( (acc, cur) => {
+        return acc.data.length > cur.data.length ? acc : cur;
+    })
+    var labels = Array.from(Array(longest.data.length).keys())
+    deaths_bar = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: datasets,
+        },
+        options: {
+            title: {
+                display: true,
+                text: "New Deaths (per day)"
+            },
+            scales: {
+                yAxes: [{
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'New Deaths'
+                    }
+                }],
+                xAxes: [{
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'Days since atleast 10 cases'
+                    }
+                }]
+            }
+        }
+    });
+}
+
+function selectBox(states) {
+    var selectList = document.getElementById('state');
+    var list = states.sort();
+    var option = document.createElement("option");
+    option.value = "--";
+    option.text = "Select a State";
+    selectList.appendChild(option);
+    for (var i=0; i < list.length; i++) {
+        var option = document.createElement("option");
+        option.value = list[i];
+        option.text =list[i];
+        selectList.appendChild(option);
+    }
+}
+
+function checkBoxes(states) {
+    var checkboxes = document.getElementById('checkboxes');
+    var list = states.sort();
+    for (var i=0; i < list.length; i++) {
+        var container = document.createElement("div")
+        container.classList.add("checkbox")
+
+        var checkbox = document.createElement("input")
+        checkbox.type = "checkbox";
+        checkbox.class = 'checkbox'
+        checkbox.name = list[i];
+        checkbox.value = list[i];
+        checkbox.checked = true;
+        checkbox.id = list[i].toLowerCase().replace(' ', '_')
+
+        var label = document.createElement("label");
+        label.htmlFor = list[i].toLowerCase().replace(' ','_');
+        label.appendChild(document.createTextNode(list[i]));
+
+        container.appendChild(checkbox);
+        container.appendChild(label);
+        checkboxes.appendChild(container);
+    }
+}
+
+var data, cases_vs_delta, cases_time, cases_log, deaths_bar, cases_bar;
+var state = 'New York'
+fetch("us-counties.json")
+  .then(response => response.json())
+  .then(json => {
+    var data = {};
+    Object.keys(json).sort().forEach(function(key) {
+      data[key] = json[key];
+    });
+
+    return data;
+  })
+  .then(json => {
+    counties = Object.keys(json[state])
+    data = json[state]
+    createCaseVsDelta(data, counties)
+    createCasesTimeseries(data, counties)
+    createCasesLogarithmic(data, counties)
+    createNewCasesBar(data, counties)
+    createNewDeathsBar(data, counties)
+    return json;
+  })
+  .then(json => {
+      selectBox(Object.keys(json));
+      checkBoxes(Object.keys(json[state]));
+      return json;
+  })
+  .then(json => {
+      data = json;
+  });
+
+
+document.getElementById('state').addEventListener('change', (event) => {
+    var state = event.target.value;
+    var counties = Object.keys(data[state])
+    var countyData =data[state]
+    document.getElementById("checkboxes").innerHTML = ""
+    checkBoxes(counties);
+
+    cases_vs_delta.destroy();
+    cases_log.destroy();
+    cases_time.destroy();
+    cases_bar.destroy();
+    deaths_bar.destroy();
+    createCaseVsDelta(countyData, counties);
+    createCasesTimeseries(countyData, counties);
+    createCasesLogarithmic(countyData, counties);
+    createNewCasesBar(countyData, counties)
+    createNewDeathsBar(countyData, counties)
+})
+
+document.getElementById("submit").addEventListener('click', (event) => {
+    var state = document.getElementById('state').value
+    var checked = document.querySelectorAll('input[type=checkbox]:checked')
+
+    var states = []
+    checked.forEach( e => states.push(e.value))
+    cases_vs_delta.destroy();
+    cases_log.destroy();
+    cases_time.destroy();
+    cases_bar.destroy();
+    deaths_bar.destroy();
+    createCaseVsDelta(data[state], states);
+    createCasesTimeseries(data[state], states);
+    createCasesLogarithmic(data[state], states);
+    createNewCasesBar(data[state], states)
+    createNewDeathsBar(data[state], states)
+})
