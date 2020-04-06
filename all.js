@@ -312,3 +312,17 @@ document.getElementById("submit").addEventListener('click', (event) => {
     createNewCasesBar(data, states)
     createNewDeathsBar(data, states)
 })
+
+document.getElementById('check').addEventListener('click', (event) => {
+    var checkboxes = document.querySelectorAll('input[type=checkbox]');
+    checkboxes.forEach(value => {
+        value.checked = true;
+    })
+})
+
+document.getElementById('uncheck').addEventListener('click', (event) => {
+    var checkboxes = document.querySelectorAll('input[type=checkbox]');
+    checkboxes.forEach(value => {
+        value.checked = false;
+    })
+})

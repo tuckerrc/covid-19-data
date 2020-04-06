@@ -239,7 +239,7 @@ function createNewDeathsBar(data, states) {
     });
 }
 
-function selectBox(states) {
+function selectBox(states, initial) {
     var selectList = document.getElementById('state');
     var list = states.sort();
     var option = document.createElement("option");
@@ -250,6 +250,9 @@ function selectBox(states) {
         var option = document.createElement("option");
         option.value = list[i];
         option.text =list[i];
+        if (list[i] == initial) {
+            option.selected = true
+        }
         selectList.appendChild(option);
     }
 }
@@ -302,7 +305,7 @@ fetch("us-counties.json")
     return json;
   })
   .then(json => {
-      selectBox(Object.keys(json));
+      selectBox(Object.keys(json), state);
       checkBoxes(Object.keys(json[state]));
       return json;
   })
@@ -346,4 +349,18 @@ document.getElementById("submit").addEventListener('click', (event) => {
     createCasesLogarithmic(data[state], states);
     createNewCasesBar(data[state], states)
     createNewDeathsBar(data[state], states)
+})
+
+document.getElementById('check').addEventListener('click', (event) => {
+    var checkboxes = document.querySelectorAll('input[type=checkbox]');
+    checkboxes.forEach(value => {
+        value.checked = true;
+    })
+})
+
+document.getElementById('uncheck').addEventListener('click', (event) => {
+    var checkboxes = document.querySelectorAll('input[type=checkbox]');
+    checkboxes.forEach(value => {
+        value.checked = false;
+    })
 })
