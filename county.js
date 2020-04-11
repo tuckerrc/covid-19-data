@@ -47,6 +47,55 @@ function createCaseVsDelta(data, states) {
     });
 }
 
+function createCaseVsDeaths(data, states) {
+    var ctx = document.getElementById('cases_vs_deaths');
+    var datasets = []
+    for (var key in data) {
+        if (states.indexOf(key) > -1) {
+            var set = {
+                label: key,
+                borderColor: data[key].color,
+                fill: false,
+                data: data[key].data.map(x => {
+                    return {
+                        "x": x.cases,
+                        "y": x.deaths,
+                    };
+                })
+            }
+            datasets.push(set);
+        }
+    }
+    cases_vs_deaths = new Chart(ctx, {
+        type: 'line',
+        data: {
+            datasets: datasets,
+        },
+        options: {
+            title: {
+                display: true,
+                text: "Total Cases Vs Total Deaths"
+            },
+            scales: {
+                yAxes: [{
+                    type: 'logarithmic',
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'Total Deaths (log)'
+                    }
+                }],
+                xAxes: [{
+                    type: 'logarithmic',
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'Total Cases (log)'
+                    }
+                }]
+            }
+        }
+    });
+}
+
 function createCasesTimeseries(data, states) {
     var ctx = document.getElementById('cases_time');
     var datasets = []
@@ -132,6 +181,104 @@ function createCasesLogarithmic(data, states) {
                     scaleLabel: {
                         display: true,
                         labelString: 'New Cases'
+                    }
+                }],
+                xAxes: [{
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'Days since atleast 10 cases'
+                    }
+                }]
+            }
+        }
+    });
+}
+
+function createDeathsTimeseries(data, states) {
+    var ctx = document.getElementById('deaths_time');
+    var datasets = []
+    for (var key in data) {
+        if (states.indexOf(key) > -1) {
+            var values = data[key].data.filter(x => x.cases >= 10)
+            var set = {
+                label: key,
+                borderColor: data[key].color,
+                fill: false,
+                data: values.map(x => x.deaths)
+            }
+            datasets.push(set);
+        }
+    }
+    var longest = datasets.reduce( (acc, cur) => {
+        return acc.data.length > cur.data.length ? acc : cur;
+    })
+    var labels = Array.from(Array(longest.data.length).keys())
+    deaths_time = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: datasets,
+        },
+        options: {
+            title: {
+                display: true,
+                text: "Total Deaths"
+            },
+            scales: {
+                yAxes: [{
+                    type: 'linear',
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'Total Deaths'
+                    }
+                }],
+                xAxes: [{
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'Days since atleast 10 cases'
+                    }
+                }]
+            }
+        }
+    });
+}
+
+function createDeathsLogarithmic(data, states) {
+    var ctx = document.getElementById('deaths_log');
+    var datasets = []
+    for (var key in data) {
+        if (states.indexOf(key) > -1) {
+            var values = data[key].data.filter(x => x.cases >= 10)
+            var set = {
+                label: key,
+                borderColor: data[key].color,
+                fill: false,
+                data: values.map(x => x.deaths)
+            }
+            datasets.push(set);
+        }
+    }
+    var longest = datasets.reduce( (acc, cur) => {
+        return acc.data.length > cur.data.length ? acc : cur;
+    })
+    var labels = Array.from(Array(longest.data.length).keys())
+    deaths_log = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: datasets,
+        },
+        options: {
+            title: {
+                display: true,
+                text: "Total Deaths (logarithmic)",
+            },
+            scales: {
+                yAxes: [{
+                    type: 'logarithmic',
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'New Deaths'
                     }
                 }],
                 xAxes: [{
@@ -282,7 +429,7 @@ function checkBoxes(states) {
     }
 }
 
-var data, cases_vs_delta, cases_time, cases_log, deaths_bar, cases_bar;
+var data, cases_vs_delta, cases_vs_deaths, cases_time, cases_log, deaths_time, deaths_log, deaths_bar, cases_bar;
 var state = 'New York'
 fetch("us-counties.json")
   .then(response => response.json())
@@ -298,8 +445,11 @@ fetch("us-counties.json")
     counties = Object.keys(json[state])
     data = json[state]
     createCaseVsDelta(data, counties)
+    createCaseVsDeaths(data, counties)
     createCasesTimeseries(data, counties)
     createCasesLogarithmic(data, counties)
+    createDeathsTimeseries(data, counties)
+    createDeathsLogarithmic(data, counties)
     createNewCasesBar(data, counties)
     createNewDeathsBar(data, counties)
     return json;
@@ -322,13 +472,19 @@ document.getElementById('state').addEventListener('change', (event) => {
     checkBoxes(counties);
 
     cases_vs_delta.destroy();
+    cases_vs_deaths.destroy();
     cases_log.destroy();
     cases_time.destroy();
+    deaths_log.destroy();
+    deaths_time.destroy();
     cases_bar.destroy();
     deaths_bar.destroy();
     createCaseVsDelta(countyData, counties);
+    createCaseVsDeaths(countyData, counties);
     createCasesTimeseries(countyData, counties);
     createCasesLogarithmic(countyData, counties);
+    createDeathsTimeseries(countyData, counties);
+    createDeathsLogarithmic(countyData, counties);
     createNewCasesBar(countyData, counties)
     createNewDeathsBar(countyData, counties)
 })
@@ -340,13 +496,19 @@ document.getElementById("submit").addEventListener('click', (event) => {
     var states = []
     checked.forEach( e => states.push(e.value))
     cases_vs_delta.destroy();
+    cases_vs_deaths.destroy();
     cases_log.destroy();
     cases_time.destroy();
+    deaths_log.destroy();
+    deaths_time.destroy();
     cases_bar.destroy();
     deaths_bar.destroy();
     createCaseVsDelta(data[state], states);
+    createCaseVsDeaths(data[state], states);
     createCasesTimeseries(data[state], states);
     createCasesLogarithmic(data[state], states);
+    createDeathsTimeseries(data[state], states);
+    createDeathsLogarithmic(data[state], states);
     createNewCasesBar(data[state], states)
     createNewDeathsBar(data[state], states)
 })
