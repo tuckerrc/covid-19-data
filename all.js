@@ -27,6 +27,9 @@ function createCaseVsDelta(data, states) {
                 display: true,
                 text: "Total Cases Vs New Cases"
             },
+            legend: {
+                display: false,
+            },
             scales: {
                 yAxes: [{
                     type: 'logarithmic',
@@ -75,6 +78,9 @@ function createCaseVsDeaths(data, states) {
             title: {
                 display: true,
                 text: "Total Cases Vs Total Deaths"
+            },
+            legend: {
+                display: false,
             },
             scales: {
                 yAxes: [{
@@ -126,6 +132,9 @@ function createCasesTimeseries(data, states) {
                 display: true,
                 text: "Total Cases"
             },
+            legend: {
+                display: false,
+            },
             scales: {
                 yAxes: [{
                     type: 'linear',
@@ -174,6 +183,9 @@ function createCasesLogarithmic(data, states) {
             title: {
                 display: true,
                 text: "Total Cases (logarithmic)",
+            },
+            legend: {
+                display: false,
             },
             scales: {
                 yAxes: [{
@@ -224,6 +236,9 @@ function createDeathsTimeseries(data, states) {
                 display: true,
                 text: "Total Deaths"
             },
+            legend: {
+                display: false,
+            },
             scales: {
                 yAxes: [{
                     type: 'linear',
@@ -273,6 +288,9 @@ function createDeathsLogarithmic(data, states) {
                 display: true,
                 text: "Total Deaths (logarithmic)",
             },
+            legend: {
+                display: false,
+            },
             scales: {
                 yAxes: [{
                     type: 'logarithmic',
@@ -321,6 +339,9 @@ function createNewCasesBar(data, states) {
                 display: true,
                 text: "New Cases (per day)"
             },
+            legend: {
+                display: false,
+            },
             scales: {
                 yAxes: [{
                     scaleLabel: {
@@ -368,6 +389,9 @@ function createNewDeathsBar(data, states) {
                 display: true,
                 text: "New Deaths (per day)"
             },
+            legend: {
+                display: false,
+            },
             scales: {
                 yAxes: [{
                     scaleLabel: {
@@ -413,6 +437,28 @@ function checkBoxes(states, checked) {
     }
 }
 
+function createLegend(data, checked) {
+    var container = document.getElementById('legend')
+
+    var list = checked.sort();
+    for (var i=0; i < list.length; i++) {
+        var state = document.createElement('div')
+        state.classList.add('legend-state');
+
+        var color = document.createElement('div');
+        color.classList.add('legend-color');
+        color.style = 'background-color: ' + data[list[i]].color
+
+        var label = document.createElement('div');
+        label.classList.add('legend-label');
+        label.appendChild(document.createTextNode(list[i]))
+
+        state.appendChild(color);
+        state.appendChild(label);
+        container.appendChild(state);
+    }
+}
+
 var data, cases_vs_delta, cases_vs_deaths, cases_time, cases_log, deaths_time, deaths_log,  deaths_bar, cases_bar;
 var states = ['Virginia', 'Utah', 'Washington', 'Pennsylvania', 'New Mexico']
 fetch("us-states.json")
@@ -435,6 +481,7 @@ fetch("us-states.json")
     createDeathsLogarithmic(json, states)
     createNewCasesBar(json, states)
     createNewDeathsBar(json, states)
+    createLegend(json, states);
     return json;
   })
   .then(json => {
@@ -448,6 +495,7 @@ fetch("us-states.json")
 
 document.getElementById("submit").addEventListener('click', (event) => {
     var checked = document.querySelectorAll('input[type=checkbox]:checked')
+    document.getElementById("legend").innerHTML = ""
 
     var states = []
     checked.forEach( e => states.push(e.value))
@@ -467,6 +515,7 @@ document.getElementById("submit").addEventListener('click', (event) => {
     createDeathsLogarithmic(data, states);
     createNewCasesBar(data, states)
     createNewDeathsBar(data, states)
+    createLegend(data, states);
 })
 
 document.getElementById('check').addEventListener('click', (event) => {
