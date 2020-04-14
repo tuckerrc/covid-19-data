@@ -211,7 +211,7 @@ function createDeathsTimeseries(data, states) {
     var datasets = []
     for (var key in data) {
         if (states.indexOf(key) > -1) {
-            var values = data[key].data.filter(x => x.cases >= 10)
+            var values = data[key].data.filter(x => x.deaths >= 1)
             var set = {
                 label: key,
                 borderColor: data[key].color,
@@ -250,7 +250,7 @@ function createDeathsTimeseries(data, states) {
                 xAxes: [{
                     scaleLabel: {
                         display: true,
-                        labelString: 'Days since atleast 10 cases'
+                        labelString: 'Days since first death'
                     }
                 }]
             }
@@ -263,7 +263,7 @@ function createDeathsLogarithmic(data, states) {
     var datasets = []
     for (var key in data) {
         if (states.indexOf(key) > -1) {
-            var values = data[key].data.filter(x => x.cases >= 10)
+            var values = data[key].data.filter(x => x.deaths >= 1)
             var set = {
                 label: key,
                 borderColor: data[key].color,
@@ -302,7 +302,7 @@ function createDeathsLogarithmic(data, states) {
                 xAxes: [{
                     scaleLabel: {
                         display: true,
-                        labelString: 'Days since atleast 10 cases'
+                        labelString: 'Days since first death'
                     }
                 }]
             }
@@ -365,7 +365,7 @@ function createNewDeathsBar(data, states) {
     var datasets = []
     for (var key in data) {
         if (states.indexOf(key) > -1) {
-            var values = data[key].data.filter(x => x.cases >= 10)
+            var values = data[key].data.filter(x => x.deaths >= 1)
             var set = {
                 label: key,
                 backgroundColor: data[key].color,
@@ -402,7 +402,7 @@ function createNewDeathsBar(data, states) {
                 xAxes: [{
                     scaleLabel: {
                         display: true,
-                        labelString: 'Days since atleast 10 cases'
+                        labelString: 'Days since first death'
                     }
                 }]
             }
