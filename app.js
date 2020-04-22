@@ -1,3 +1,19 @@
+/**
+ * Modified from the ChartJS core.ticks library.
+ * https://github.com/chartjs/Chart.js/blob/v2.9.3/src/core/core.ticks.js#L67
+ */
+function logTick(tickValue, index, values) {
+    if (tickValue === 0) {
+        return '0';
+    }
+    const remain = tickValue / (Math.pow(10, Math.floor(Math.log10(tickValue))));
+    if (remain === 1 || remain === 2 || remain === 5) {
+        return tickValue;
+    }
+    return '';
+
+}
+
 function createCaseVsDelta(data, state) {
     var ctx = document.getElementById('cases_vs_delta');
     var dataset = [{
@@ -22,6 +38,9 @@ function createCaseVsDelta(data, state) {
                     scaleLabel: {
                         display: true,
                         labelString: 'New Cases (log)'
+                    },
+                    ticks: {
+                        callback: logTick
                     }
                 }],
                 xAxes: [{
@@ -29,6 +48,9 @@ function createCaseVsDelta(data, state) {
                     scaleLabel: {
                         display: true,
                         labelString: 'Total Cases (log)'
+                    },
+                    ticks: {
+                        callback: logTick
                     }
                 }]
             }
@@ -60,6 +82,9 @@ function createCaseVsDeaths(data, state) {
                     scaleLabel: {
                         display: true,
                         labelString: 'Total Deaths (log)'
+                    },
+                    ticks: {
+                        callback: logTick
                     }
                 }],
                 xAxes: [{
@@ -67,6 +92,9 @@ function createCaseVsDeaths(data, state) {
                     scaleLabel: {
                         display: true,
                         labelString: 'Total Cases (log)'
+                    },
+                    ticks: {
+                        callback: logTick
                     }
                 }]
             }
@@ -134,6 +162,9 @@ function createCasesLogarithmic(data, state) {
                     scaleLabel: {
                         display: true,
                         labelString: 'Total Cases (log)'
+                    },
+                    ticks: {
+                        callback: logTick
                     }
                 }]
             }
@@ -201,6 +232,9 @@ function createDeathsLogarithmic(data, state) {
                     scaleLabel: {
                         display: true,
                         labelString: 'Total Deaths (log)'
+                    },
+                    ticks: {
+                        callback: logTick
                     }
                 }]
             }
