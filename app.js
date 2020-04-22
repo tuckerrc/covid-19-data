@@ -123,6 +123,12 @@ function createCasesTimeseries(data, state) {
             datasets: dataset,
         },
         options: {
+            elements: {
+                line: {
+                    borderWidth: 2,
+                    tension: 0.0001
+                }
+            },
             scales: {
                 yAxes: [{
                     scaleLabel: {
@@ -156,6 +162,12 @@ function createCasesLogarithmic(data, state) {
             datasets: dataset,
         },
         options: {
+            elements: {
+                line: {
+                    borderWidth: 2,
+                    tension: 0.0001
+                }
+            },
             scales: {
                 yAxes: [{
                     type: 'logarithmic',
@@ -193,6 +205,12 @@ function createDeathsTimeseries(data, state) {
             datasets: dataset,
         },
         options: {
+            elements: {
+                line: {
+                    borderWidth: 2,
+                    tension: 0.0001
+                }
+            },
             scales: {
                 yAxes: [{
                     scaleLabel: {
@@ -226,6 +244,12 @@ function createDeathsLogarithmic(data, state) {
             datasets: dataset,
         },
         options: {
+            elements: {
+                line: {
+                    borderWidth: 2,
+                    tension: 0.0001
+                }
+            },
             scales: {
                 yAxes: [{
                     type: 'logarithmic',

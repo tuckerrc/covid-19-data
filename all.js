@@ -39,6 +39,12 @@ function createCaseVsDelta(data, states) {
             datasets: datasets,
         },
         options: {
+            elements: {
+                line: {
+                    borderWidth: 2,
+                    tension: 0.0001
+                }
+            },
             title: {
                 display: true,
                 text: "Total Cases Vs New Cases"
@@ -97,6 +103,12 @@ function createCaseVsDeaths(data, states) {
             datasets: datasets,
         },
         options: {
+            elements: {
+                line: {
+                    borderWidth: 2,
+                    tension: 0.0001
+                }
+            },
             title: {
                 display: true,
                 text: "Total Cases Vs Total Deaths"
@@ -156,6 +168,12 @@ function createCasesTimeseries(data, states) {
             datasets: datasets,
         },
         options: {
+            elements: {
+                line: {
+                    borderWidth: 2,
+                    tension: 0.0001
+                }
+            },
             title: {
                 display: true,
                 text: "Total Cases"
@@ -208,6 +226,12 @@ function createCasesLogarithmic(data, states) {
             datasets: datasets,
         },
         options: {
+            elements: {
+                line: {
+                    borderWidth: 2,
+                    tension: 0.0001
+                }
+            },
             title: {
                 display: true,
                 text: "Total Cases (logarithmic)",
@@ -263,6 +287,12 @@ function createDeathsTimeseries(data, states) {
             datasets: datasets,
         },
         options: {
+            elements: {
+                line: {
+                    borderWidth: 2,
+                    tension: 0.0001
+                }
+            },
             title: {
                 display: true,
                 text: "Total Deaths"
@@ -315,6 +345,12 @@ function createDeathsLogarithmic(data, states) {
             datasets: datasets,
         },
         options: {
+            elements: {
+                line: {
+                    borderWidth: 2,
+                    tension: 0.0001
+                }
+            },
             title: {
                 display: true,
                 text: "Total Deaths (logarithmic)",
