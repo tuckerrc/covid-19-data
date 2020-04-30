@@ -232,7 +232,7 @@ function createCasesLogarithmic(data, states) {
                     type: 'logarithmic',
                     scaleLabel: {
                         display: true,
-                        labelString: 'New Cases'
+                        labelString: 'Total Cases'
                     },
                     ticks: {
                         callback: logTick
