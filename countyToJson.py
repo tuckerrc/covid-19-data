@@ -49,12 +49,22 @@ def main():
                     prev = state_data[state][county]['data'][i-1]
                     c_delta = cases - prev[header[4]]
                     d_delta = deaths - prev[header[5]]
+                    if (len(state_data[state][county]['data']) > 2):
+                        ## Calculate 3 day mean for deltas
+                        prev2 = state_data[state][county]['data'][i-2]
+                        c_delta_mean = (prev["c_delta"] + prev2["c_delta"] + int(c_delta))/3
+                        d_delta_mean = (prev["d_delta"] + prev2["d_delta"] + int(d_delta))/3
+                    else:
+                        c_delta_mean = 0
+                        d_delta_mean = 0
                     state_data[state][county]['data'].append({
                         header[0]: date,
                         header[4]: cases,
                         header[5]: deaths,
                         "c_delta": c_delta,
                         "d_delta": d_delta,
+                        "c_delta_mean": int(c_delta_mean),
+                        "d_delta_mean": int(d_delta_mean)
                     })
                 else:
                     count = len(list(state_data[state].keys())) + 1
@@ -68,6 +78,8 @@ def main():
                         header[5]: deaths,
                         "c_delta": cases,
                         "d_delta": deaths,
+                        "c_delta_mean": 0,
+                        "d_delta_mean": 0,
                     })
             else:
                 state_data[state] = {
@@ -77,7 +89,9 @@ def main():
                             header[4]: cases,
                             header[5]: deaths,
                             "c_delta": cases,
-                            "d_delta": deaths
+                            "d_delta": deaths,
+                            "c_delta_mean": 0,
+                            "d_delta_mean": 0,
                         }],
                         'color': 'hsla( {}, 100%, 50%, 1)'.format(1 * 6)
                     }

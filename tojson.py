@@ -15,6 +15,7 @@ def main():
                 c_delta = int(row[3]) - prev[header[3]]
                 d_delta = int(row[4]) - prev[header[4]]
                 if (len(state_data[row[1]]) > 2):
+                    ## Calculate 3 day mean for deltas
                     prev2 = state_data[row[1]][i-2]
                     c_delta_mean = (prev["c_delta"] + prev2["c_delta"] + int(c_delta))/3
                     d_delta_mean = (prev["d_delta"] + prev2["d_delta"] + int(d_delta))/3
