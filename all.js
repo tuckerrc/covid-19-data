@@ -26,7 +26,7 @@ function createCaseVsDelta(data, states) {
                 data: data[key].data.map(x => {
                     return {
                         "x": x.cases,
-                        "y": x.c_delta,
+                        "y": x.c_delta_mean,
                     };
                 })
             }
@@ -57,7 +57,7 @@ function createCaseVsDelta(data, states) {
                     type: 'logarithmic',
                     scaleLabel: {
                         display: true,
-                        labelString: 'New Cases (log)'
+                        labelString: 'New Cases - 3 day mean (log)'
                     },
                     ticks: {
                         callback: logTick
