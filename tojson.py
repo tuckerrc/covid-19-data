@@ -12,12 +12,23 @@ def main():
             if len(state_data[row[1]]) > 0:
                 i = len(state_data[row[1]])
                 prev = state_data[row[1]][i-1]
+                c_delta = int(row[3]) - prev[header[3]]
+                d_delta = int(row[4]) - prev[header[4]]
+                if (len(state_data[row[1]]) > 2):
+                    prev2 = state_data[row[1]][i-2]
+                    c_delta_mean = (prev["c_delta"] + prev2["c_delta"] + int(c_delta))/3
+                    d_delta_mean = (prev["d_delta"] + prev2["d_delta"] + int(d_delta))/3
+                else:
+                    c_delta_mean = 0
+                    d_delta_mean = 0
                 state_data[row[1]].append({
                     header[0]: d,
                     header[3]: int(row[3]),
                     header[4]: int(row[4]),
                     "c_delta": int(row[3]) - prev[header[3]],
                     "d_delta": int(row[4]) - prev[header[4]],
+                    "c_delta_mean": int(c_delta_mean),
+                    "d_delta_mean": int(d_delta_mean)
                 })
             else:
                 state_data[row[1]].append({
@@ -25,7 +36,9 @@ def main():
                     header[3]: int(row[3]),
                     header[4]: int(row[4]),
                     "c_delta": int(row[3]),
-                    "d_delta": int(row[4])
+                    "d_delta": int(row[4]),
+                    "c_delta_mean": 0,
+                    "d_delta_mean": 0
                 })
     data = dict()
     count = 1
