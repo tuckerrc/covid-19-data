@@ -339,6 +339,9 @@ function selectBox(states) {
         var option = document.createElement("option");
         option.value = list[i];
         option.text =list[i];
+        if (list[i] == 'United States') {
+            option.selected = true;
+        }
         selectList.appendChild(option);
     }
 }
@@ -348,14 +351,14 @@ var cases_vs_delta, cases_vs_deaths, cases_time, cases_log, deaths_time, deaths_
 fetch("us-states.json")
   .then(response => response.json())
   .then(json => {
-    createCaseVsDelta(json, 'Virginia')
-    createCaseVsDeaths(json, 'Virginia')
-    createCasesTimeseries(json, 'Virginia')
-    createCasesLogarithmic(json, 'Virginia')
-    createDeathsTimeseries(json, 'Virginia')
-    createDeathsLogarithmic(json, 'Virginia')
-    createNewCasesBar(json, 'Virginia')
-    createNewDeathsBar(json, 'Virginia')
+    createCaseVsDelta(json, 'United States')
+    createCaseVsDeaths(json, 'United States')
+    createCasesTimeseries(json, 'United States')
+    createCasesLogarithmic(json, 'United States')
+    createDeathsTimeseries(json, 'United States')
+    createDeathsLogarithmic(json, 'United States')
+    createNewCasesBar(json, 'United States')
+    createNewDeathsBar(json, 'United States')
     return json;
   })
   .then(json => {
