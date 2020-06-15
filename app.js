@@ -320,7 +320,7 @@ function createNewDeathsBar(data, state) {
                 yAxes: [{
                     scaleLabel: {
                         display: true,
-                        labelString: 'New Deaths (log)'
+                        labelString: 'New Deaths'
                     }
                 }]
             }
