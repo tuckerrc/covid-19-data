@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Single State | COVID-19 Charts</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <style type="text/css">
+        .nav {
+            margin-bottom: 1em;
+        }
+        .box {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .chart {
+            width: 100%;
+            height: 400px;
+            max-width: 800px;
+            margin: 1em;
+        }
+    </style>
+  </head>
+  <body>
+    <nav class="nav">
+        <span><a>Single States</a></span>
+        <span><a href="all.html">Multi States</a></span>
+        <span><a href="county.html">Counties</a></span>
+    </nav>
+    <select id="state" ></select>
+    <div class="box">
+        <!--        <div class="chart" id="cases_vs_delta"></div>
+        <div class="chart" id="cases_vs_deaths"></div>
+        <div class="chart" id="cases_log"></div>
+        <div class="chart" id="cases_time"></div>
+        <div class="chart" id="deaths_log"></div>
+        <div class="chart" id="deaths_time"></div> -->
+        <div class="chart" id="cases_bar" ></div>
+        <!--<div class="chart" id="deaths_bar" ></div>-->
+    </div>
+    <div>Data Source: <a href="https://github.com/nytimes/covid-19-data">NYTimes</a></div>
+    <script src="d3-single.js"></script>
+  </body>
+</html>
+
