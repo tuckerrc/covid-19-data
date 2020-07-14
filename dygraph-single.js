@@ -47,9 +47,9 @@ function createCaseVsDelta(data, state) {
             drawPoints: true,
             axes: {
                 x: {
-                valueFormatter: function(x) {
-                    return 'Cases: ' + x;
-                },
+                    valueFormatter: function(x) {
+                        return 'Cases: ' + x;
+                    },
                     logscale: true,
                 }
             }
@@ -58,20 +58,22 @@ function createCaseVsDelta(data, state) {
 }
 
 function createCaseVsDeaths(data, state) {
-    var dyData = convertDataToDygraphs(data, state, {'x':'cases', 'y':'deaths'});
+    var dyData = convertDataToDygraphs(data, state, {'x':'deaths', 'y':'d_delta'});
     cases_vs_deaths = new Dygraph(
         document.getElementById('cases_vs_deaths'),
         dyData,
         {
-            title: 'Cases vs Deaths (' + state + ')',
+            title: 'Deaths vs New Deaths (' + state + ')',
             color: data[state].color,
-            xlabel: 'Cases',
-            ylabel: 'Deaths',
+            labels: ['Deaths', 'New Deaths'],
+            xlabel: 'Deaths',
+            ylabel: 'New Deaths',
             drawPoints: true,
-            logscale: true,
             axes: {
                 x: {
-                    logscale: true
+                    valueFormatter: function(x) {
+                        return 'Deaths: ' + x;
+                    },
                 }
             }
         }
