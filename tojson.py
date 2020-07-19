@@ -1,14 +1,22 @@
 import csv
 import json
+from datetime import datetime, timedelta
 from collections import defaultdict
+import argparse
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-d', '--daylimit', type=int, help="Limit previous days", default=60)
+    args = parser.parse_args()
     state_data = defaultdict(list)
     with open('us-states.csv', 'r') as states:
         reader = csv.reader(states)
         header = next(reader)
         for row in reader:
             d = row[0]
+            two_months_ago = datetime.now() - timedelta(days=args.daylimit)
+            if (d < two_months_ago.strftime("%Y-%m-%d")):
+                continue
             if len(state_data[row[1]]) > 0:
                 i = len(state_data[row[1]])
                 prev = state_data[row[1]][i-1]
@@ -92,7 +100,7 @@ def main():
         count = count + 6
 
     with open('us-states.json', 'w') as output:
-        output.write(json.dumps(data))
+        output.write(json.dumps(data, indent=4))
 
 
 if __name__ == "__main__":
