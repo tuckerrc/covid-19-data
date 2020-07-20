@@ -7,6 +7,7 @@ import argparse
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('-d', '--daylimit', type=int, help="Limit previous days", default=60)
+    parser.add_argument('-o', '--output', type=str, help="Relative path of file output", default='us-states.json')
     args = parser.parse_args()
     state_data = defaultdict(list)
     with open('us-states.csv', 'r') as states:
@@ -99,7 +100,7 @@ def main():
         state_data[sd]
         count = count + 6
 
-    with open('us-states.json', 'w') as output:
+    with open(args.output, 'w') as output:
         output.write(json.dumps(data, indent=4))
 
 
