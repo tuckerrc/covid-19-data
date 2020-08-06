@@ -3,18 +3,9 @@
         "color": "hsla( 1, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 803, 
-                "d_delta": 803, 
-                "c_delta": 16769, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 16769
-            }, 
-            {
                 "deaths": 811, 
-                "d_delta": 8, 
-                "c_delta": 265, 
+                "d_delta": 811, 
+                "c_delta": 17034, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -33,8 +24,8 @@
                 "deaths": 837, 
                 "d_delta": 20, 
                 "c_delta": 498, 
-                "c_delta_mean": 333, 
-                "d_delta_mean": 11, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 17768
             }, 
@@ -550,6 +541,15 @@
                 "d_delta_mean": 20, 
                 "date": "2020-08-04", 
                 "cases": 62199
+            }, 
+            {
+                "deaths": 1804, 
+                "d_delta": 51, 
+                "c_delta": 1245, 
+                "c_delta_mean": 963, 
+                "d_delta_mean": 33, 
+                "date": "2020-08-05", 
+                "cases": 63444
             }
         ]
     }, 
@@ -560,15 +560,6 @@
                 "deaths": 2, 
                 "d_delta": 2, 
                 "c_delta": 26, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 26
-            }, 
-            {
-                "deaths": 2, 
-                "d_delta": 0, 
-                "c_delta": 0, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -1104,6 +1095,15 @@
                 "d_delta_mean": 0, 
                 "date": "2020-08-04", 
                 "cases": 46
+            }, 
+            {
+                "deaths": 2, 
+                "d_delta": 0, 
+                "c_delta": 0, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
+                "date": "2020-08-05", 
+                "cases": 46
             }
         ]
     }, 
@@ -1111,18 +1111,9 @@
         "color": "hsla( 13, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 345, 
-                "d_delta": 345, 
-                "c_delta": 7004, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 7004
-            }, 
-            {
                 "deaths": 347, 
-                "d_delta": 2, 
-                "c_delta": 56, 
+                "d_delta": 347, 
+                "c_delta": 7060, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -1141,8 +1132,8 @@
                 "deaths": 348, 
                 "d_delta": 0, 
                 "c_delta": 55, 
-                "c_delta_mean": 67, 
-                "d_delta_mean": 1, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 7206
             }, 
@@ -1658,6 +1649,15 @@
                 "d_delta_mean": 5, 
                 "date": "2020-08-04", 
                 "cases": 39452
+            }, 
+            {
+                "deaths": 583, 
+                "d_delta": 17, 
+                "c_delta": 1103, 
+                "c_delta_mean": 784, 
+                "d_delta_mean": 11, 
+                "date": "2020-08-05", 
+                "cases": 40555
             }
         ]
     }, 
@@ -1667,16 +1667,7 @@
             {
                 "deaths": 17, 
                 "d_delta": 17, 
-                "c_delta": 933, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 933
-            }, 
-            {
-                "deaths": 17, 
-                "d_delta": 0, 
-                "c_delta": 6, 
+                "c_delta": 939, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -1695,7 +1686,7 @@
                 "deaths": 17, 
                 "d_delta": 0, 
                 "c_delta": 13, 
-                "c_delta_mean": 9, 
+                "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 960
@@ -2212,6 +2203,15 @@
                 "d_delta_mean": 0, 
                 "date": "2020-08-04", 
                 "cases": 2884
+            }, 
+            {
+                "deaths": 27, 
+                "d_delta": 0, 
+                "c_delta": 39, 
+                "c_delta_mean": 38, 
+                "d_delta_mean": 0, 
+                "date": "2020-08-05", 
+                "cases": 2923
             }
         ]
     }, 
@@ -2219,18 +2219,9 @@
         "color": "hsla( 25, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 1159, 
-                "d_delta": 1159, 
-                "c_delta": 26991, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 26991
-            }, 
-            {
                 "deaths": 1181, 
-                "d_delta": 22, 
-                "c_delta": 521, 
+                "d_delta": 1181, 
+                "c_delta": 27512, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -2249,8 +2240,8 @@
                 "deaths": 1208, 
                 "d_delta": 11, 
                 "c_delta": 338, 
-                "c_delta_mean": 414, 
-                "d_delta_mean": 16, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 28235
             }, 
@@ -2766,6 +2757,15 @@
                 "d_delta_mean": 4, 
                 "date": "2020-08-04", 
                 "cases": 57202
+            }, 
+            {
+                "deaths": 1670, 
+                "d_delta": 10, 
+                "c_delta": 618, 
+                "c_delta_mean": 611, 
+                "d_delta_mean": 5, 
+                "date": "2020-08-05", 
+                "cases": 57820
             }
         ]
     }, 
@@ -2773,18 +2773,9 @@
         "color": "hsla( 31, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 5834, 
-                "d_delta": 5834, 
-                "c_delta": 126317, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 126317
-            }, 
-            {
                 "deaths": 5898, 
-                "d_delta": 64, 
-                "c_delta": 934, 
+                "d_delta": 5898, 
+                "c_delta": 127251, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -2803,8 +2794,8 @@
                 "deaths": 6142, 
                 "d_delta": 203, 
                 "c_delta": 1473, 
-                "c_delta_mean": 1075, 
-                "d_delta_mean": 102, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 129543
             }, 
@@ -3320,6 +3311,15 @@
                 "d_delta_mean": 13, 
                 "date": "2020-08-04", 
                 "cases": 186598
+            }, 
+            {
+                "deaths": 7776, 
+                "d_delta": 29, 
+                "c_delta": 1876, 
+                "c_delta_mean": 1586, 
+                "d_delta_mean": 19, 
+                "date": "2020-08-05", 
+                "cases": 188474
             }
         ]
     }, 
@@ -3327,18 +3327,9 @@
         "color": "hsla( 181, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 2143, 
-                "d_delta": 2143, 
-                "c_delta": 48280, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 48280
-            }, 
-            {
                 "deaths": 2147, 
-                "d_delta": 4, 
-                "c_delta": 663, 
+                "d_delta": 2147, 
+                "c_delta": 48943, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -3357,8 +3348,8 @@
                 "deaths": 2176, 
                 "d_delta": 28, 
                 "c_delta": 624, 
-                "c_delta_mean": 571, 
-                "d_delta_mean": 11, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 49995
             }, 
@@ -3874,6 +3865,15 @@
                 "d_delta_mean": 30, 
                 "date": "2020-08-04", 
                 "cases": 182462
+            }, 
+            {
+                "deaths": 3899, 
+                "d_delta": 64, 
+                "c_delta": 3933, 
+                "c_delta_mean": 2946, 
+                "d_delta_mean": 47, 
+                "date": "2020-08-05", 
+                "cases": 186395
             }
         ]
     }, 
@@ -3881,18 +3881,9 @@
         "color": "hsla( 37, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 152, 
-                "d_delta": 152, 
-                "c_delta": 8651, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 8651
-            }, 
-            {
                 "deaths": 154, 
-                "d_delta": 2, 
-                "c_delta": 450, 
+                "d_delta": 154, 
+                "c_delta": 9101, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -3911,8 +3902,8 @@
                 "deaths": 155, 
                 "d_delta": 1, 
                 "c_delta": 314, 
-                "c_delta_mean": 363, 
-                "d_delta_mean": 1, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 9740
             }, 
@@ -4428,6 +4419,15 @@
                 "d_delta_mean": 10, 
                 "date": "2020-08-04", 
                 "cases": 45381
+            }, 
+            {
+                "deaths": 508, 
+                "d_delta": 18, 
+                "c_delta": 912, 
+                "c_delta_mean": 827, 
+                "d_delta_mean": 14, 
+                "date": "2020-08-05", 
+                "cases": 46293
             }
         ]
     }, 
@@ -4435,18 +4435,9 @@
         "color": "hsla( 43, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 387, 
-                "d_delta": 387, 
-                "c_delta": 8672, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 8672
-            }, 
-            {
                 "deaths": 392, 
-                "d_delta": 5, 
-                "c_delta": 128, 
+                "d_delta": 392, 
+                "c_delta": 8800, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -4465,8 +4456,8 @@
                 "deaths": 400, 
                 "d_delta": 4, 
                 "c_delta": 122, 
-                "c_delta_mean": 130, 
-                "d_delta_mean": 4, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 9062
             }, 
@@ -4982,6 +4973,15 @@
                 "d_delta_mean": 2, 
                 "date": "2020-08-04", 
                 "cases": 21340
+            }, 
+            {
+                "deaths": 667, 
+                "d_delta": 9, 
+                "c_delta": 226, 
+                "c_delta_mean": 183, 
+                "d_delta_mean": 4, 
+                "date": "2020-08-05", 
+                "cases": 21566
             }
         ]
     }, 
@@ -4989,18 +4989,9 @@
         "color": "hsla( 247, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 2355, 
-                "d_delta": 2355, 
-                "c_delta": 37758, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 37758
-            }, 
-            {
                 "deaths": 2370, 
-                "d_delta": 15, 
-                "c_delta": 353, 
+                "d_delta": 2370, 
+                "c_delta": 38111, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -5019,8 +5010,8 @@
                 "deaths": 2404, 
                 "d_delta": 27, 
                 "c_delta": 361, 
-                "c_delta_mean": 359, 
-                "d_delta_mean": 16, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 38837
             }, 
@@ -5536,6 +5527,15 @@
                 "d_delta_mean": 18, 
                 "date": "2020-08-04", 
                 "cases": 95106
+            }, 
+            {
+                "deaths": 3596, 
+                "d_delta": 26, 
+                "c_delta": 1199, 
+                "c_delta_mean": 1091, 
+                "d_delta_mean": 22, 
+                "date": "2020-08-05", 
+                "cases": 96305
             }
         ]
     }, 
@@ -5543,18 +5543,9 @@
         "color": "hsla( 49, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 2258, 
-                "d_delta": 2258, 
-                "c_delta": 37499, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 37499
-            }, 
-            {
                 "deaths": 2292, 
-                "d_delta": 34, 
-                "c_delta": 429, 
+                "d_delta": 2292, 
+                "c_delta": 37928, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -5573,8 +5564,8 @@
                 "deaths": 2316, 
                 "d_delta": 13, 
                 "c_delta": 225, 
-                "c_delta_mean": 351, 
-                "d_delta_mean": 19, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 38553
             }, 
@@ -6090,6 +6081,15 @@
                 "d_delta_mean": 8, 
                 "date": "2020-08-04", 
                 "cases": 70944
+            }, 
+            {
+                "deaths": 3007, 
+                "d_delta": 11, 
+                "c_delta": 741, 
+                "c_delta_mean": 718, 
+                "d_delta_mean": 10, 
+                "date": "2020-08-05", 
+                "cases": 71685
             }
         ]
     }, 
@@ -6097,18 +6097,9 @@
         "color": "hsla( 55, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 2702, 
-                "d_delta": 2702, 
-                "c_delta": 57407, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 57407
-            }, 
-            {
                 "deaths": 2740, 
-                "d_delta": 38, 
-                "c_delta": 692, 
+                "d_delta": 2740, 
+                "c_delta": 58099, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -6127,8 +6118,8 @@
                 "deaths": 2776, 
                 "d_delta": 27, 
                 "c_delta": 431, 
-                "c_delta_mean": 539, 
-                "d_delta_mean": 24, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 59024
             }, 
@@ -6644,6 +6635,15 @@
                 "d_delta_mean": 8, 
                 "date": "2020-08-04", 
                 "cases": 92416
+            }, 
+            {
+                "deaths": 3536, 
+                "d_delta": 6, 
+                "c_delta": 584, 
+                "c_delta_mean": 721, 
+                "d_delta_mean": 7, 
+                "date": "2020-08-05", 
+                "cases": 93000
             }
         ]
     }, 
@@ -6651,18 +6651,9 @@
         "color": "hsla( 61, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 2912, 
-                "d_delta": 2912, 
-                "c_delta": 42100, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 42100
-            }, 
-            {
                 "deaths": 2925, 
-                "d_delta": 13, 
-                "c_delta": 497, 
+                "d_delta": 2925, 
+                "c_delta": 42597, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -6681,8 +6672,8 @@
                 "deaths": 2944, 
                 "d_delta": 8, 
                 "c_delta": 236, 
-                "c_delta_mean": 354, 
-                "d_delta_mean": 10, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 43163
             }, 
@@ -7198,6 +7189,15 @@
                 "d_delta_mean": 34, 
                 "date": "2020-08-04", 
                 "cases": 124575
+            }, 
+            {
+                "deaths": 4096, 
+                "d_delta": 45, 
+                "c_delta": 1486, 
+                "c_delta_mean": 2066, 
+                "d_delta_mean": 29, 
+                "date": "2020-08-05", 
+                "cases": 126061
             }
         ]
     }, 
@@ -7207,16 +7207,7 @@
             {
                 "deaths": 83, 
                 "d_delta": 83, 
-                "c_delta": 3111, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 3111
-            }, 
-            {
-                "deaths": 83, 
-                "d_delta": 0, 
-                "c_delta": 28, 
+                "c_delta": 3139, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -7235,7 +7226,7 @@
                 "deaths": 83, 
                 "d_delta": 0, 
                 "c_delta": 44, 
-                "c_delta_mean": 28, 
+                "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 3197
@@ -7752,6 +7743,15 @@
                 "d_delta_mean": 5, 
                 "date": "2020-08-04", 
                 "cases": 22357
+            }, 
+            {
+                "deaths": 218, 
+                "d_delta": 4, 
+                "c_delta": 497, 
+                "c_delta_mean": 463, 
+                "d_delta_mean": 7, 
+                "date": "2020-08-05", 
+                "cases": 22854
             }
         ]
     }, 
@@ -7759,18 +7759,9 @@
         "color": "hsla( 85, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 1016, 
-                "d_delta": 1016, 
-                "c_delta": 24369, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 24369
-            }, 
-            {
                 "deaths": 1046, 
-                "d_delta": 30, 
-                "c_delta": 1148, 
+                "d_delta": 1046, 
+                "c_delta": 25517, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -7789,8 +7780,8 @@
                 "deaths": 1052, 
                 "d_delta": 4, 
                 "c_delta": 837, 
-                "c_delta_mean": 1130, 
-                "d_delta_mean": 12, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 27761
             }, 
@@ -8306,6 +8297,15 @@
                 "d_delta_mean": 32, 
                 "date": "2020-08-04", 
                 "cases": 180537
+            }, 
+            {
+                "deaths": 3933, 
+                "d_delta": 83, 
+                "c_delta": 1693, 
+                "c_delta_mean": 1252, 
+                "d_delta_mean": 54, 
+                "date": "2020-08-05", 
+                "cases": 182230
             }
         ]
     }, 
@@ -8313,18 +8313,9 @@
         "color": "hsla( 91, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 597, 
-                "d_delta": 597, 
-                "c_delta": 21332, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 21332
-            }, 
-            {
                 "deaths": 602, 
-                "d_delta": 5, 
-                "c_delta": 195, 
+                "d_delta": 602, 
+                "c_delta": 21527, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -8343,8 +8334,8 @@
                 "deaths": 623, 
                 "d_delta": 17, 
                 "c_delta": 317, 
-                "c_delta_mean": 259, 
-                "d_delta_mean": 8, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 22111
             }, 
@@ -8860,6 +8851,15 @@
                 "d_delta_mean": 4, 
                 "date": "2020-08-04", 
                 "cases": 46231
+            }, 
+            {
+                "deaths": 900, 
+                "d_delta": 12, 
+                "c_delta": 605, 
+                "c_delta_mean": 371, 
+                "d_delta_mean": 7, 
+                "date": "2020-08-05", 
+                "cases": 46836
             }
         ]
     }, 
@@ -8867,18 +8867,9 @@
         "color": "hsla( 97, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 5854, 
-                "d_delta": 5854, 
-                "c_delta": 63744, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 63744
-            }, 
-            {
                 "deaths": 5894, 
-                "d_delta": 40, 
-                "c_delta": 452, 
+                "d_delta": 5894, 
+                "c_delta": 64196, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -8897,8 +8888,8 @@
                 "deaths": 5916, 
                 "d_delta": 18, 
                 "c_delta": 296, 
-                "c_delta_mean": 389, 
-                "d_delta_mean": 20, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 64911
             }, 
@@ -9414,6 +9405,15 @@
                 "d_delta_mean": 4, 
                 "date": "2020-08-04", 
                 "cases": 93293
+            }, 
+            {
+                "deaths": 6480, 
+                "d_delta": 6, 
+                "c_delta": 752, 
+                "c_delta_mean": 729, 
+                "d_delta_mean": 6, 
+                "date": "2020-08-05", 
+                "cases": 94045
             }
         ]
     }, 
@@ -9421,18 +9421,9 @@
         "color": "hsla( 103, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 233, 
-                "d_delta": 233, 
-                "c_delta": 10493, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 10493
-            }, 
-            {
                 "deaths": 234, 
-                "d_delta": 1, 
-                "c_delta": 24, 
+                "d_delta": 234, 
+                "c_delta": 10517, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -9451,8 +9442,8 @@
                 "deaths": 237, 
                 "d_delta": 3, 
                 "c_delta": 175, 
-                "c_delta_mean": 77, 
-                "d_delta_mean": 1, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 10724
             }, 
@@ -9968,6 +9959,15 @@
                 "d_delta_mean": 3, 
                 "date": "2020-08-04", 
                 "cases": 29259
+            }, 
+            {
+                "deaths": 371, 
+                "d_delta": 4, 
+                "c_delta": 788, 
+                "c_delta_mean": 568, 
+                "d_delta_mean": 3, 
+                "date": "2020-08-05", 
+                "cases": 30047
             }
         ]
     }, 
@@ -9975,18 +9975,9 @@
         "color": "hsla( 109, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 120, 
-                "d_delta": 120, 
-                "c_delta": 11344, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 11344
-            }, 
-            {
                 "deaths": 121, 
-                "d_delta": 1, 
-                "c_delta": 522, 
+                "d_delta": 121, 
+                "c_delta": 11866, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -10005,8 +9996,8 @@
                 "deaths": 124, 
                 "d_delta": 3, 
                 "c_delta": 294, 
-                "c_delta_mean": 344, 
-                "d_delta_mean": 1, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 12378
             }, 
@@ -10522,6 +10513,15 @@
                 "d_delta_mean": 4, 
                 "date": "2020-08-04", 
                 "cases": 42018
+            }, 
+            {
+                "deaths": 330, 
+                "d_delta": 6, 
+                "c_delta": 460, 
+                "c_delta_mean": 434, 
+                "d_delta_mean": 5, 
+                "date": "2020-08-05", 
+                "cases": 42478
             }
         ]
     }, 
@@ -10529,18 +10529,9 @@
         "color": "hsla( 115, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 1453, 
-                "d_delta": 1453, 
-                "c_delta": 48532, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 48532
-            }, 
-            {
                 "deaths": 1460, 
-                "d_delta": 7, 
-                "c_delta": 865, 
+                "d_delta": 1460, 
+                "c_delta": 49397, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -10559,8 +10550,8 @@
                 "deaths": 1477, 
                 "d_delta": 5, 
                 "c_delta": 570, 
-                "c_delta_mean": 906, 
-                "d_delta_mean": 8, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 51251
             }, 
@@ -11076,6 +11067,15 @@
                 "d_delta_mean": 9, 
                 "date": "2020-08-04", 
                 "cases": 94251
+            }, 
+            {
+                "deaths": 2274, 
+                "d_delta": 30, 
+                "c_delta": 798, 
+                "c_delta_mean": 1089, 
+                "d_delta_mean": 18, 
+                "date": "2020-08-05", 
+                "cases": 95049
             }
         ]
     }, 
@@ -11083,18 +11083,9 @@
         "color": "hsla( 121, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 161, 
-                "d_delta": 161, 
-                "c_delta": 4585, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 4585
-            }, 
-            {
                 "deaths": 163, 
-                "d_delta": 2, 
-                "c_delta": 87, 
+                "d_delta": 163, 
+                "c_delta": 4672, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -11113,8 +11104,8 @@
                 "deaths": 164, 
                 "d_delta": 0, 
                 "c_delta": 118, 
-                "c_delta_mean": 114, 
-                "d_delta_mean": 1, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 4927
             }, 
@@ -11630,6 +11621,15 @@
                 "d_delta_mean": 2, 
                 "date": "2020-08-04", 
                 "cases": 19700
+            }, 
+            {
+                "deaths": 342, 
+                "d_delta": 6, 
+                "c_delta": 279, 
+                "c_delta_mean": 294, 
+                "d_delta_mean": 3, 
+                "date": "2020-08-05", 
+                "cases": 19979
             }
         ]
     }, 
@@ -11637,18 +11637,9 @@
         "color": "hsla( 127, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 4038, 
-                "d_delta": 4038, 
-                "c_delta": 43460, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 43460
-            }, 
-            {
                 "deaths": 4055, 
-                "d_delta": 17, 
-                "c_delta": 358, 
+                "d_delta": 4055, 
+                "c_delta": 43818, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -11667,8 +11658,8 @@
                 "deaths": 4084, 
                 "d_delta": 13, 
                 "c_delta": 124, 
-                "c_delta_mean": 210, 
-                "d_delta_mean": 15, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 44092
             }, 
@@ -12184,6 +12175,15 @@
                 "d_delta_mean": 1, 
                 "date": "2020-08-04", 
                 "cases": 50110
+            }, 
+            {
+                "deaths": 4437, 
+                "d_delta": 0, 
+                "c_delta": 115, 
+                "c_delta_mean": 138, 
+                "d_delta_mean": 1, 
+                "date": "2020-08-05", 
+                "cases": 50225
             }
         ]
     }, 
@@ -12193,16 +12193,7 @@
             {
                 "deaths": 18, 
                 "d_delta": 18, 
-                "c_delta": 539, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 539
-            }, 
-            {
-                "deaths": 18, 
-                "d_delta": 0, 
-                "c_delta": 1, 
+                "c_delta": 540, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -12221,7 +12212,7 @@
                 "deaths": 18, 
                 "d_delta": 0, 
                 "c_delta": 3, 
-                "c_delta_mean": 3, 
+                "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 548
@@ -12738,6 +12729,15 @@
                 "d_delta_mean": 1, 
                 "date": "2020-08-04", 
                 "cases": 4360
+            }, 
+            {
+                "deaths": 65, 
+                "d_delta": 1, 
+                "c_delta": 121, 
+                "c_delta_mean": 96, 
+                "d_delta_mean": 1, 
+                "date": "2020-08-05", 
+                "cases": 4481
             }
         ]
     }, 
@@ -12745,18 +12745,9 @@
         "color": "hsla( 139, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 4550, 
-                "d_delta": 4550, 
-                "c_delta": 126510, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 126510
-            }, 
-            {
                 "deaths": 4626, 
-                "d_delta": 76, 
-                "c_delta": 2637, 
+                "d_delta": 4626, 
+                "c_delta": 129147, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -12775,8 +12766,8 @@
                 "deaths": 4679, 
                 "d_delta": 26, 
                 "c_delta": 2290, 
-                "c_delta_mean": 2592, 
-                "d_delta_mean": 43, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 134287
             }, 
@@ -13292,6 +13283,15 @@
                 "d_delta_mean": 110, 
                 "date": "2020-08-04", 
                 "cases": 527258
+            }, 
+            {
+                "deaths": 9866, 
+                "d_delta": 170, 
+                "c_delta": 5518, 
+                "c_delta_mean": 5613, 
+                "d_delta_mean": 155, 
+                "date": "2020-08-05", 
+                "cases": 532776
             }
         ]
     }, 
@@ -13299,18 +13299,9 @@
         "color": "hsla( 145, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 7235, 
-                "d_delta": 7235, 
-                "c_delta": 102557, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 102557
-            }, 
-            {
                 "deaths": 7289, 
-                "d_delta": 54, 
-                "c_delta": 575, 
+                "d_delta": 7289, 
+                "c_delta": 103132, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -13329,8 +13320,8 @@
                 "deaths": 7353, 
                 "d_delta": 37, 
                 "c_delta": 190, 
-                "c_delta_mean": 356, 
-                "d_delta_mean": 39, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 103626
             }, 
@@ -13846,6 +13837,15 @@
                 "d_delta_mean": 10, 
                 "date": "2020-08-04", 
                 "cases": 119203
+            }, 
+            {
+                "deaths": 8659, 
+                "d_delta": 2, 
+                "c_delta": 440, 
+                "c_delta_mean": 395, 
+                "d_delta_mean": 7, 
+                "date": "2020-08-05", 
+                "cases": 119643
             }
         ]
     }, 
@@ -13853,18 +13853,9 @@
         "color": "hsla( 151, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 141, 
-                "d_delta": 141, 
-                "c_delta": 4620, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 4620
-            }, 
-            {
                 "deaths": 142, 
-                "d_delta": 1, 
-                "c_delta": 295, 
+                "d_delta": 142, 
+                "c_delta": 4915, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -13883,7 +13874,7 @@
                 "deaths": 142, 
                 "d_delta": 0, 
                 "c_delta": 61, 
-                "c_delta_mean": 142, 
+                "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 5046
@@ -14400,6 +14391,15 @@
                 "d_delta_mean": 4, 
                 "date": "2020-08-04", 
                 "cases": 19324
+            }, 
+            {
+                "deaths": 246, 
+                "d_delta": 9, 
+                "c_delta": 327, 
+                "c_delta_mean": 413, 
+                "d_delta_mean": 5, 
+                "date": "2020-08-05", 
+                "cases": 19651
             }
         ]
     }, 
@@ -14407,18 +14407,9 @@
         "color": "hsla( 157, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 538, 
-                "d_delta": 538, 
-                "c_delta": 13453, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 13453
-            }, 
-            {
                 "deaths": 545, 
-                "d_delta": 7, 
-                "c_delta": 463, 
+                "d_delta": 545, 
+                "c_delta": 13916, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -14437,8 +14428,8 @@
                 "deaths": 557, 
                 "d_delta": 11, 
                 "c_delta": 514, 
-                "c_delta_mean": 449, 
-                "d_delta_mean": 6, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 14800
             }, 
@@ -14954,6 +14945,15 @@
                 "d_delta_mean": 32, 
                 "date": "2020-08-04", 
                 "cases": 94190
+            }, 
+            {
+                "deaths": 1894, 
+                "d_delta": 47, 
+                "c_delta": 1282, 
+                "c_delta_mean": 1228, 
+                "d_delta_mean": 39, 
+                "date": "2020-08-05", 
+                "cases": 95472
             }
         ]
     }, 
@@ -14961,18 +14961,9 @@
         "color": "hsla( 163, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 278, 
-                "d_delta": 278, 
-                "c_delta": 4953, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 4953
-            }, 
-            {
                 "deaths": 283, 
-                "d_delta": 5, 
-                "c_delta": 66, 
+                "d_delta": 283, 
+                "c_delta": 5019, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -14991,8 +14982,8 @@
                 "deaths": 286, 
                 "d_delta": 0, 
                 "c_delta": 36, 
-                "c_delta_mean": 42, 
-                "d_delta_mean": 2, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 5079
             }, 
@@ -15508,6 +15499,15 @@
                 "d_delta_mean": 0, 
                 "date": "2020-08-04", 
                 "cases": 6693
+            }, 
+            {
+                "deaths": 418, 
+                "d_delta": 0, 
+                "c_delta": 26, 
+                "c_delta_mean": 28, 
+                "d_delta_mean": 0, 
+                "date": "2020-08-05", 
+                "cases": 6719
             }
         ]
     }, 
@@ -15517,16 +15517,7 @@
             {
                 "deaths": 55, 
                 "d_delta": 55, 
-                "c_delta": 1027, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 1027
-            }, 
-            {
-                "deaths": 55, 
-                "d_delta": 0, 
-                "c_delta": 19, 
+                "c_delta": 1046, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -15545,7 +15536,7 @@
                 "deaths": 55, 
                 "d_delta": 0, 
                 "c_delta": 12, 
-                "c_delta_mean": 16, 
+                "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 1075
@@ -16062,6 +16053,15 @@
                 "d_delta_mean": 0, 
                 "date": "2020-08-04", 
                 "cases": 1431
+            }, 
+            {
+                "deaths": 57, 
+                "d_delta": 0, 
+                "c_delta": 5, 
+                "c_delta_mean": 3, 
+                "d_delta_mean": 0, 
+                "date": "2020-08-05", 
+                "cases": 1436
             }
         ]
     }, 
@@ -16069,18 +16069,9 @@
         "color": "hsla( 19, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 388, 
-                "d_delta": 388, 
-                "c_delta": 9773, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 9773
-            }, 
-            {
                 "deaths": 390, 
-                "d_delta": 2, 
-                "c_delta": 72, 
+                "d_delta": 390, 
+                "c_delta": 9845, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -16099,8 +16090,8 @@
                 "deaths": 398, 
                 "d_delta": 0, 
                 "c_delta": 30, 
-                "c_delta_mean": 66, 
-                "d_delta_mean": 3, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 9972
             }, 
@@ -16616,6 +16607,15 @@
                 "d_delta_mean": 0, 
                 "date": "2020-08-04", 
                 "cases": 15137
+            }, 
+            {
+                "deaths": 587, 
+                "d_delta": 0, 
+                "c_delta": 159, 
+                "c_delta_mean": 115, 
+                "d_delta_mean": 0, 
+                "date": "2020-08-05", 
+                "cases": 15296
             }
         ]
     }, 
@@ -16623,18 +16623,9 @@
         "color": "hsla( 187, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 74, 
-                "d_delta": 74, 
-                "c_delta": 2748, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 2748
-            }, 
-            {
                 "deaths": 75, 
-                "d_delta": 1, 
-                "c_delta": 71, 
+                "d_delta": 75, 
+                "c_delta": 2819, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -16653,7 +16644,7 @@
                 "deaths": 75, 
                 "d_delta": 0, 
                 "c_delta": 19, 
-                "c_delta_mean": 45, 
+                "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 2883
@@ -17170,6 +17161,15 @@
                 "d_delta_mean": 1, 
                 "date": "2020-08-04", 
                 "cases": 6937
+            }, 
+            {
+                "deaths": 112, 
+                "d_delta": 1, 
+                "c_delta": 124, 
+                "c_delta_mean": 132, 
+                "d_delta_mean": 1, 
+                "date": "2020-08-05", 
+                "cases": 7061
             }
         ]
     }, 
@@ -17177,18 +17177,9 @@
         "color": "hsla( 193, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 5952, 
-                "d_delta": 5952, 
-                "c_delta": 78908, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 78908
-            }, 
-            {
                 "deaths": 5986, 
-                "d_delta": 34, 
-                "c_delta": 599, 
+                "d_delta": 5986, 
+                "c_delta": 79507, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -17207,8 +17198,8 @@
                 "deaths": 6007, 
                 "d_delta": 10, 
                 "c_delta": 431, 
-                "c_delta_mean": 508, 
-                "d_delta_mean": 18, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 80432
             }, 
@@ -17724,6 +17715,15 @@
                 "d_delta_mean": 8, 
                 "date": "2020-08-04", 
                 "cases": 119765
+            }, 
+            {
+                "deaths": 7310, 
+                "d_delta": 14, 
+                "c_delta": 727, 
+                "c_delta_mean": 818, 
+                "d_delta_mean": 12, 
+                "date": "2020-08-05", 
+                "cases": 120492
             }
         ]
     }, 
@@ -17733,16 +17733,7 @@
             {
                 "deaths": 84, 
                 "d_delta": 84, 
-                "c_delta": 2119, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 2119
-            }, 
-            {
-                "deaths": 84, 
-                "d_delta": 0, 
-                "c_delta": 17, 
+                "c_delta": 2136, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -17761,7 +17752,7 @@
                 "deaths": 84, 
                 "d_delta": 0, 
                 "c_delta": 17, 
-                "c_delta_mean": 14, 
+                "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 2161
@@ -18278,6 +18269,15 @@
                 "d_delta_mean": 2, 
                 "date": "2020-08-04", 
                 "cases": 7051
+            }, 
+            {
+                "deaths": 124, 
+                "d_delta": 0, 
+                "c_delta": 108, 
+                "c_delta_mean": 101, 
+                "d_delta_mean": 2, 
+                "date": "2020-08-05", 
+                "cases": 7159
             }
         ]
     }, 
@@ -18285,18 +18285,9 @@
         "color": "hsla( 205, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 2659, 
-                "d_delta": 2659, 
-                "c_delta": 61480, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 61480
-            }, 
-            {
                 "deaths": 2687, 
-                "d_delta": 28, 
-                "c_delta": 1270, 
+                "d_delta": 2687, 
+                "c_delta": 62750, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -18315,8 +18306,8 @@
                 "deaths": 2711, 
                 "d_delta": 12, 
                 "c_delta": 966, 
-                "c_delta_mean": 1138, 
-                "d_delta_mean": 17, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 64896
             }, 
@@ -18832,6 +18823,15 @@
                 "d_delta_mean": 126, 
                 "date": "2020-08-04", 
                 "cases": 497322
+            }, 
+            {
+                "deaths": 7626, 
+                "d_delta": 225, 
+                "c_delta": 5409, 
+                "c_delta_mean": 5202, 
+                "d_delta_mean": 181, 
+                "date": "2020-08-05", 
+                "cases": 502731
             }
         ]
     }, 
@@ -18841,16 +18841,7 @@
             {
                 "deaths": 8, 
                 "d_delta": 8, 
-                "c_delta": 565, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 565
-            }, 
-            {
-                "deaths": 8, 
-                "d_delta": 0, 
-                "c_delta": 14, 
+                "c_delta": 579, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -18869,7 +18860,7 @@
                 "deaths": 8, 
                 "d_delta": 0, 
                 "c_delta": 19, 
-                "c_delta_mean": 14, 
+                "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 607
@@ -19386,6 +19377,15 @@
                 "d_delta_mean": 0, 
                 "date": "2020-08-04", 
                 "cases": 4123
+            }, 
+            {
+                "deaths": 23, 
+                "d_delta": 0, 
+                "c_delta": 58, 
+                "c_delta_mean": 66, 
+                "d_delta_mean": 0, 
+                "date": "2020-08-05", 
+                "cases": 4181
             }
         ]
     }, 
@@ -19393,18 +19393,9 @@
         "color": "hsla( 217, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 476, 
-                "d_delta": 476, 
-                "c_delta": 11051, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 11051
-            }, 
-            {
                 "deaths": 480, 
-                "d_delta": 4, 
-                "c_delta": 308, 
+                "d_delta": 480, 
+                "c_delta": 11359, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -19423,8 +19414,8 @@
                 "deaths": 487, 
                 "d_delta": 6, 
                 "c_delta": 308, 
-                "c_delta_mean": 216, 
-                "d_delta_mean": 3, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 11701
             }, 
@@ -19940,6 +19931,15 @@
                 "d_delta_mean": 3, 
                 "date": "2020-08-04", 
                 "cases": 33209
+            }, 
+            {
+                "deaths": 771, 
+                "d_delta": 2, 
+                "c_delta": 614, 
+                "c_delta_mean": 619, 
+                "d_delta_mean": 4, 
+                "date": "2020-08-05", 
+                "cases": 33823
             }
         ]
     }, 
@@ -19949,16 +19949,7 @@
             {
                 "deaths": 17, 
                 "d_delta": 17, 
-                "c_delta": 653, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 653
-            }, 
-            {
-                "deaths": 17, 
-                "d_delta": 0, 
-                "c_delta": 8, 
+                "c_delta": 661, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -19977,7 +19968,7 @@
                 "deaths": 17, 
                 "d_delta": 0, 
                 "c_delta": 1, 
-                "c_delta_mean": 3, 
+                "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 664
@@ -20494,6 +20485,15 @@
                 "d_delta_mean": 0, 
                 "date": "2020-08-04", 
                 "cases": 2568
+            }, 
+            {
+                "deaths": 26, 
+                "d_delta": 0, 
+                "c_delta": 172, 
+                "c_delta_mean": 173, 
+                "d_delta_mean": 0, 
+                "date": "2020-08-05", 
+                "cases": 2740
             }
         ]
     }, 
@@ -21932,18 +21932,18 @@
                 "cases": 2525929
             }, 
             {
-                "deaths": 125814, 
-                "d_delta": 270, 
-                "c_delta": 39078, 
-                "c_delta_mean": 42302, 
+                "deaths": 125815, 
+                "d_delta": 271, 
+                "c_delta": 39507, 
+                "c_delta_mean": 42445, 
                 "d_delta_mean": 471, 
                 "date": "2020-06-28", 
-                "cases": 2565007
+                "cases": 2565436
             }, 
             {
                 "deaths": 126162, 
-                "d_delta": 348, 
-                "c_delta": 39917, 
+                "d_delta": 347, 
+                "c_delta": 39488, 
                 "c_delta_mean": 40433, 
                 "d_delta_mean": 376, 
                 "date": "2020-06-29", 
@@ -21962,7 +21962,7 @@
                 "deaths": 128104, 
                 "d_delta": 642, 
                 "c_delta": 49977, 
-                "c_delta_mean": 46096, 
+                "c_delta_mean": 45953, 
                 "d_delta_mean": 763, 
                 "date": "2020-07-01", 
                 "cases": 2703296
@@ -21977,18 +21977,18 @@
                 "cases": 2758851
             }, 
             {
-                "deaths": 129417, 
-                "d_delta": 590, 
-                "c_delta": 56523, 
-                "c_delta_mean": 54018, 
-                "d_delta_mean": 651, 
+                "deaths": 129418, 
+                "d_delta": 591, 
+                "c_delta": 57154, 
+                "c_delta_mean": 54228, 
+                "d_delta_mean": 652, 
                 "date": "2020-07-03", 
-                "cases": 2815374
+                "cases": 2816005
             }, 
             {
                 "deaths": 129679, 
-                "d_delta": 262, 
-                "c_delta": 50640, 
+                "d_delta": 261, 
+                "c_delta": 50009, 
                 "c_delta_mean": 54239, 
                 "d_delta_mean": 525, 
                 "date": "2020-07-04", 
@@ -22007,8 +22007,8 @@
                 "deaths": 130332, 
                 "d_delta": 391, 
                 "c_delta": 47315, 
-                "c_delta_mean": 47573, 
-                "d_delta_mean": 305, 
+                "c_delta_mean": 47363, 
+                "d_delta_mean": 304, 
                 "date": "2020-07-06", 
                 "cases": 2958095
             }, 
@@ -22249,29 +22249,38 @@
             {
                 "deaths": 155336, 
                 "d_delta": 418, 
-                "c_delta": 48486, 
-                "c_delta_mean": 58122, 
+                "c_delta": 49321, 
+                "c_delta_mean": 58400, 
                 "d_delta_mean": 967, 
                 "date": "2020-08-02", 
-                "cases": 4677020
+                "cases": 4677855
             }, 
             {
                 "deaths": 155941, 
                 "d_delta": 605, 
-                "c_delta": 48209, 
-                "c_delta_mean": 51616, 
+                "c_delta": 47419, 
+                "c_delta_mean": 51631, 
                 "d_delta_mean": 693, 
                 "date": "2020-08-03", 
-                "cases": 4725229
+                "cases": 4725274
             }, 
             {
                 "deaths": 157299, 
                 "d_delta": 1358, 
-                "c_delta": 53440, 
+                "c_delta": 53395, 
                 "c_delta_mean": 50045, 
                 "d_delta_mean": 793, 
                 "date": "2020-08-04", 
                 "cases": 4778669
+            }, 
+            {
+                "deaths": 158552, 
+                "d_delta": 1253, 
+                "c_delta": 53726, 
+                "c_delta_mean": 51513, 
+                "d_delta_mean": 1072, 
+                "date": "2020-08-05", 
+                "cases": 4832395
             }
         ]
     }, 
@@ -22279,18 +22288,9 @@
         "color": "hsla( 235, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 193, 
-                "d_delta": 193, 
-                "c_delta": 15379, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 15379
-            }, 
-            {
                 "deaths": 196, 
-                "d_delta": 3, 
-                "c_delta": 164, 
+                "d_delta": 196, 
+                "c_delta": 15543, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -22309,8 +22309,8 @@
                 "deaths": 196, 
                 "d_delta": 0, 
                 "c_delta": 118, 
-                "c_delta_mean": 124, 
-                "d_delta_mean": 1, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 15752
             }, 
@@ -22826,6 +22826,15 @@
                 "d_delta_mean": 0, 
                 "date": "2020-08-04", 
                 "cases": 27178
+            }, 
+            {
+                "deaths": 342, 
+                "d_delta": 3, 
+                "c_delta": 311, 
+                "c_delta_mean": 262, 
+                "d_delta_mean": 1, 
+                "date": "2020-08-05", 
+                "cases": 27489
             }
         ]
     }, 
@@ -22833,18 +22842,9 @@
         "color": "hsla( 241, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 816, 
-                "d_delta": 816, 
-                "c_delta": 14515, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 14515
-            }, 
-            {
                 "deaths": 823, 
-                "d_delta": 7, 
-                "c_delta": 144, 
+                "d_delta": 823, 
+                "c_delta": 14659, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -22863,8 +22863,8 @@
                 "deaths": 832, 
                 "d_delta": 9, 
                 "c_delta": 174, 
-                "c_delta_mean": 214, 
-                "d_delta_mean": 5, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 15159
             }, 
@@ -23380,6 +23380,15 @@
                 "d_delta_mean": 6, 
                 "date": "2020-08-04", 
                 "cases": 54854
+            }, 
+            {
+                "deaths": 1337, 
+                "d_delta": 7, 
+                "c_delta": 1065, 
+                "c_delta_mean": 1123, 
+                "d_delta_mean": 8, 
+                "date": "2020-08-05", 
+                "cases": 55919
             }
         ]
     }, 
@@ -23387,18 +23396,9 @@
         "color": "hsla( 169, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 634, 
-                "d_delta": 634, 
-                "c_delta": 20427, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 20427
-            }, 
-            {
                 "deaths": 646, 
-                "d_delta": 12, 
-                "c_delta": 274, 
+                "d_delta": 646, 
+                "c_delta": 20701, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -23417,8 +23417,8 @@
                 "deaths": 650, 
                 "d_delta": 2, 
                 "c_delta": 211, 
-                "c_delta_mean": 244, 
-                "d_delta_mean": 5, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 21161
             }, 
@@ -23934,6 +23934,15 @@
                 "d_delta_mean": 5, 
                 "date": "2020-08-04", 
                 "cases": 60263
+            }, 
+            {
+                "deaths": 979, 
+                "d_delta": 9, 
+                "c_delta": 984, 
+                "c_delta_mean": 752, 
+                "d_delta_mean": 7, 
+                "date": "2020-08-05", 
+                "cases": 61247
             }
         ]
     }, 
@@ -23941,18 +23950,9 @@
         "color": "hsla( 253, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 676, 
-                "d_delta": 676, 
-                "c_delta": 19387, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 19387
-            }, 
-            {
                 "deaths": 689, 
-                "d_delta": 13, 
-                "c_delta": 656, 
+                "d_delta": 689, 
+                "c_delta": 20043, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -23971,8 +23971,8 @@
                 "deaths": 718, 
                 "d_delta": 26, 
                 "c_delta": 425, 
-                "c_delta_mean": 512, 
-                "d_delta_mean": 14, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 20925
             }, 
@@ -24488,6 +24488,15 @@
                 "d_delta_mean": 21, 
                 "date": "2020-08-04", 
                 "cases": 93702
+            }, 
+            {
+                "deaths": 1695, 
+                "d_delta": 29, 
+                "c_delta": 952, 
+                "c_delta_mean": 1070, 
+                "d_delta_mean": 22, 
+                "date": "2020-08-05", 
+                "cases": 94654
             }
         ]
     }, 
@@ -24495,18 +24504,9 @@
         "color": "hsla( 259, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 30066, 
-                "d_delta": 30066, 
-                "c_delta": 381019, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 381019
-            }, 
-            {
                 "deaths": 30123, 
-                "d_delta": 57, 
-                "c_delta": 1083, 
+                "d_delta": 30123, 
+                "c_delta": 382102, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -24525,8 +24525,8 @@
                 "deaths": 30239, 
                 "d_delta": 56, 
                 "c_delta": 712, 
-                "c_delta_mean": 857, 
-                "d_delta_mean": 57, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 383591
             }, 
@@ -25042,6 +25042,15 @@
                 "d_delta_mean": 10, 
                 "date": "2020-08-04", 
                 "cases": 422296
+            }, 
+            {
+                "deaths": 32431, 
+                "d_delta": 9, 
+                "c_delta": 639, 
+                "c_delta_mean": 642, 
+                "d_delta_mean": 10, 
+                "date": "2020-08-05", 
+                "cases": 422935
             }
         ]
     }, 
@@ -25049,18 +25058,9 @@
         "color": "hsla( 277, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 1524, 
-                "d_delta": 1524, 
-                "c_delta": 27601, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 27601
-            }, 
-            {
                 "deaths": 1527, 
-                "d_delta": 3, 
-                "c_delta": 233, 
+                "d_delta": 1527, 
+                "c_delta": 27834, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -25079,8 +25079,8 @@
                 "deaths": 1543, 
                 "d_delta": 16, 
                 "c_delta": 182, 
-                "c_delta_mean": 189, 
-                "d_delta_mean": 6, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 28169
             }, 
@@ -25596,6 +25596,15 @@
                 "d_delta_mean": 3, 
                 "date": "2020-08-04", 
                 "cases": 48492
+            }, 
+            {
+                "deaths": 1857, 
+                "d_delta": 2, 
+                "c_delta": 651, 
+                "c_delta_mean": 448, 
+                "d_delta_mean": 3, 
+                "date": "2020-08-05", 
+                "cases": 49143
             }
         ]
     }, 
@@ -25605,16 +25614,7 @@
             {
                 "deaths": 65, 
                 "d_delta": 65, 
-                "c_delta": 5277, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 5277
-            }, 
-            {
-                "deaths": 65, 
-                "d_delta": 0, 
-                "c_delta": 90, 
+                "c_delta": 5367, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -25633,7 +25633,7 @@
                 "deaths": 65, 
                 "d_delta": 0, 
                 "c_delta": 33, 
-                "c_delta_mean": 64, 
+                "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 5471
@@ -26150,6 +26150,15 @@
                 "d_delta_mean": 0, 
                 "date": "2020-08-04", 
                 "cases": 9079
+            }, 
+            {
+                "deaths": 137, 
+                "d_delta": 1, 
+                "c_delta": 89, 
+                "c_delta_mean": 71, 
+                "d_delta_mean": 0, 
+                "date": "2020-08-05", 
+                "cases": 9168
             }
         ]
     }, 
@@ -26160,15 +26169,6 @@
                 "deaths": 6, 
                 "d_delta": 6, 
                 "c_delta": 71, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 71
-            }, 
-            {
-                "deaths": 6, 
-                "d_delta": 0, 
-                "c_delta": 0, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -26704,6 +26704,15 @@
                 "d_delta_mean": 0, 
                 "date": "2020-08-04", 
                 "cases": 463
+            }, 
+            {
+                "deaths": 9, 
+                "d_delta": 1, 
+                "c_delta": 38, 
+                "c_delta_mean": 26, 
+                "d_delta_mean": 0, 
+                "date": "2020-08-05", 
+                "cases": 501
             }
         ]
     }, 
@@ -26711,18 +26720,9 @@
         "color": "hsla( 283, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 12049, 
-                "d_delta": 12049, 
-                "c_delta": 163336, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 163336
-            }, 
-            {
                 "deaths": 12106, 
-                "d_delta": 57, 
-                "c_delta": 557, 
+                "d_delta": 12106, 
+                "c_delta": 163893, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -26741,8 +26741,8 @@
                 "deaths": 12214, 
                 "d_delta": 38, 
                 "c_delta": 333, 
-                "c_delta_mean": 387, 
-                "d_delta_mean": 55, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 164497
             }, 
@@ -27258,6 +27258,15 @@
                 "d_delta_mean": 9, 
                 "date": "2020-08-04", 
                 "cases": 184845
+            }, 
+            {
+                "deaths": 15842, 
+                "d_delta": -15, 
+                "c_delta": 335, 
+                "c_delta_mean": 318, 
+                "d_delta_mean": 2, 
+                "date": "2020-08-05", 
+                "cases": 185180
             }
         ]
     }, 
@@ -27268,15 +27277,6 @@
                 "deaths": 6, 
                 "d_delta": 6, 
                 "c_delta": 1148, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 1148
-            }, 
-            {
-                "deaths": 6, 
-                "d_delta": 0, 
-                "c_delta": 0, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -27812,6 +27812,15 @@
                 "d_delta_mean": 0, 
                 "date": "2020-08-04", 
                 "cases": 1344
+            }, 
+            {
+                "deaths": 6, 
+                "d_delta": 0, 
+                "c_delta": 14, 
+                "c_delta_mean": 10, 
+                "d_delta_mean": 0, 
+                "date": "2020-08-05", 
+                "cases": 1358
             }
         ]
     }, 
@@ -27819,18 +27828,9 @@
         "color": "hsla( 295, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 1160, 
-                "d_delta": 1160, 
-                "c_delta": 24546, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 24546
-            }, 
-            {
                 "deaths": 1163, 
-                "d_delta": 3, 
-                "c_delta": 221, 
+                "d_delta": 1163, 
+                "c_delta": 24767, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -27849,8 +27849,8 @@
                 "deaths": 1168, 
                 "d_delta": 5, 
                 "c_delta": 529, 
-                "c_delta_mean": 349, 
-                "d_delta_mean": 2, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 25593
             }, 
@@ -28366,6 +28366,15 @@
                 "d_delta_mean": 10, 
                 "date": "2020-08-04", 
                 "cases": 61829
+            }, 
+            {
+                "deaths": 1705, 
+                "d_delta": -1, 
+                "c_delta": 561, 
+                "c_delta_mean": 743, 
+                "d_delta_mean": 8, 
+                "date": "2020-08-05", 
+                "cases": 62390
             }
         ]
     }, 
@@ -28373,18 +28382,9 @@
         "color": "hsla( 301, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 1001, 
-                "d_delta": 1001, 
-                "c_delta": 33417, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 33417
-            }, 
-            {
                 "deaths": 1020, 
-                "d_delta": 19, 
-                "c_delta": 1392, 
+                "d_delta": 1020, 
+                "c_delta": 34809, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -28403,8 +28403,8 @@
                 "deaths": 1041, 
                 "d_delta": 17, 
                 "c_delta": 918, 
-                "c_delta_mean": 1054, 
-                "d_delta_mean": 13, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 36581
             }, 
@@ -28920,6 +28920,15 @@
                 "d_delta_mean": 16, 
                 "date": "2020-08-04", 
                 "cases": 128294
+            }, 
+            {
+                "deaths": 2079, 
+                "d_delta": 41, 
+                "c_delta": 1217, 
+                "c_delta_mean": 1390, 
+                "d_delta_mean": 27, 
+                "date": "2020-08-05", 
+                "cases": 129511
             }
         ]
     }, 
@@ -28927,18 +28936,9 @@
         "color": "hsla( 79, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 405, 
-                "d_delta": 405, 
-                "c_delta": 25799, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 25799
-            }, 
-            {
                 "deaths": 413, 
-                "d_delta": 8, 
-                "c_delta": 560, 
+                "d_delta": 413, 
+                "c_delta": 26359, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -28957,8 +28957,8 @@
                 "deaths": 417, 
                 "d_delta": 3, 
                 "c_delta": 406, 
-                "c_delta_mean": 472, 
-                "d_delta_mean": 4, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 27217
             }, 
@@ -29474,6 +29474,15 @@
                 "d_delta_mean": 15, 
                 "date": "2020-08-04", 
                 "cases": 109652
+            }, 
+            {
+                "deaths": 1130, 
+                "d_delta": 27, 
+                "c_delta": 1653, 
+                "c_delta_mean": 1500, 
+                "d_delta_mean": 22, 
+                "date": "2020-08-05", 
+                "cases": 111305
             }
         ]
     }, 
@@ -29481,18 +29490,9 @@
         "color": "hsla( 307, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 479, 
-                "d_delta": 479, 
-                "c_delta": 9199, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 9199
-            }, 
-            {
                 "deaths": 483, 
-                "d_delta": 4, 
-                "c_delta": 70, 
+                "d_delta": 483, 
+                "c_delta": 9269, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -29511,8 +29511,8 @@
                 "deaths": 491, 
                 "d_delta": 2, 
                 "c_delta": 57, 
-                "c_delta_mean": 63, 
-                "d_delta_mean": 4, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 9389
             }, 
@@ -30028,6 +30028,15 @@
                 "d_delta_mean": 0, 
                 "date": "2020-08-04", 
                 "cases": 12398
+            }, 
+            {
+                "deaths": 587, 
+                "d_delta": 0, 
+                "c_delta": 45, 
+                "c_delta_mean": 56, 
+                "d_delta_mean": 0, 
+                "date": "2020-08-05", 
+                "cases": 12443
             }
         ]
     }, 
@@ -30035,18 +30044,9 @@
         "color": "hsla( 313, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 1821, 
-                "d_delta": 1821, 
-                "c_delta": 73323, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 73323
-            }, 
-            {
                 "deaths": 1840, 
-                "d_delta": 19, 
-                "c_delta": 1754, 
+                "d_delta": 1840, 
+                "c_delta": 75077, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -30065,8 +30065,8 @@
                 "deaths": 1856, 
                 "d_delta": 10, 
                 "c_delta": 1378, 
-                "c_delta_mean": 1334, 
-                "d_delta_mean": 11, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 77326
             }, 
@@ -30242,18 +30242,18 @@
                 "cases": 148639
             }, 
             {
-                "deaths": 2407, 
-                "d_delta": 9, 
-                "c_delta": 3798, 
-                "c_delta_mean": 5218, 
-                "d_delta_mean": 28, 
+                "deaths": 2408, 
+                "d_delta": 10, 
+                "c_delta": 4227, 
+                "c_delta_mean": 5361, 
+                "d_delta_mean": 29, 
                 "date": "2020-06-28", 
-                "cases": 152437
+                "cases": 152866
             }, 
             {
                 "deaths": 2430, 
-                "d_delta": 23, 
-                "c_delta": 6319, 
+                "d_delta": 22, 
+                "c_delta": 5890, 
                 "c_delta_mean": 5391, 
                 "d_delta_mean": 22, 
                 "date": "2020-06-29", 
@@ -30272,8 +30272,8 @@
                 "deaths": 2518, 
                 "d_delta": 36, 
                 "c_delta": 8123, 
-                "c_delta_mean": 7463, 
-                "d_delta_mean": 37, 
+                "c_delta_mean": 7320, 
+                "d_delta_mean": 36, 
                 "date": "2020-07-01", 
                 "cases": 174826
             }, 
@@ -30287,18 +30287,18 @@
                 "cases": 182260
             }, 
             {
-                "deaths": 2608, 
-                "d_delta": 46, 
-                "c_delta": 7158, 
-                "c_delta_mean": 7571, 
+                "deaths": 2609, 
+                "d_delta": 47, 
+                "c_delta": 7789, 
+                "c_delta_mean": 7782, 
                 "d_delta_mean": 42, 
                 "date": "2020-07-03", 
-                "cases": 189418
+                "cases": 190049
             }, 
             {
                 "deaths": 2646, 
-                "d_delta": 38, 
-                "c_delta": 6289, 
+                "d_delta": 37, 
+                "c_delta": 5658, 
                 "c_delta_mean": 6960, 
                 "d_delta_mean": 42, 
                 "date": "2020-07-04", 
@@ -30317,7 +30317,7 @@
                 "deaths": 2726, 
                 "d_delta": 60, 
                 "c_delta": 9213, 
-                "c_delta_mean": 6644, 
+                "c_delta_mean": 6433, 
                 "d_delta_mean": 39, 
                 "date": "2020-07-06", 
                 "cases": 209350
@@ -30559,29 +30559,38 @@
             {
                 "deaths": 7518, 
                 "d_delta": 41, 
-                "c_delta": 4232, 
-                "c_delta_mean": 6774, 
+                "c_delta": 5067, 
+                "c_delta_mean": 7052, 
                 "d_delta_mean": 177, 
                 "date": "2020-08-02", 
-                "cases": 452456
+                "cases": 453291
             }, 
             {
                 "deaths": 7692, 
                 "d_delta": 174, 
-                "c_delta": 9506, 
-                "c_delta_mean": 6731, 
+                "c_delta": 8716, 
+                "c_delta_mean": 6746, 
                 "d_delta_mean": 140, 
                 "date": "2020-08-03", 
-                "cases": 461962
+                "cases": 462007
             }, 
             {
                 "deaths": 7948, 
                 "d_delta": 256, 
-                "c_delta": 9465, 
+                "c_delta": 9420, 
                 "c_delta_mean": 7734, 
                 "d_delta_mean": 157, 
                 "date": "2020-08-04", 
                 "cases": 471427
+            }, 
+            {
+                "deaths": 8149, 
+                "d_delta": 201, 
+                "c_delta": 9362, 
+                "c_delta_mean": 9166, 
+                "d_delta_mean": 210, 
+                "date": "2020-08-05", 
+                "cases": 480789
             }
         ]
     }, 
@@ -30589,18 +30598,9 @@
         "color": "hsla( 319, 100%, 50%, 1)", 
         "data": [
             {
-                "deaths": 436, 
-                "d_delta": 436, 
-                "c_delta": 9306, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 9306
-            }, 
-            {
                 "deaths": 437, 
-                "d_delta": 1, 
-                "c_delta": 188, 
+                "d_delta": 437, 
+                "c_delta": 9494, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -30619,8 +30619,8 @@
                 "deaths": 442, 
                 "d_delta": 4, 
                 "c_delta": 142, 
-                "c_delta_mean": 169, 
-                "d_delta_mean": 2, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 9815
             }, 
@@ -31136,6 +31136,15 @@
                 "d_delta_mean": 10, 
                 "date": "2020-08-04", 
                 "cases": 52256
+            }, 
+            {
+                "deaths": 891, 
+                "d_delta": 29, 
+                "c_delta": 663, 
+                "c_delta_mean": 883, 
+                "d_delta_mean": 19, 
+                "date": "2020-08-05", 
+                "cases": 52919
             }
         ]
     }, 
@@ -31145,16 +31154,7 @@
             {
                 "deaths": 98, 
                 "d_delta": 98, 
-                "c_delta": 2482, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 2482
-            }, 
-            {
-                "deaths": 98, 
-                "d_delta": 0, 
-                "c_delta": 42, 
+                "c_delta": 2524, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -31173,7 +31173,7 @@
                 "deaths": 99, 
                 "d_delta": 0, 
                 "c_delta": 18, 
-                "c_delta_mean": 35, 
+                "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 2588
@@ -31690,6 +31690,15 @@
                 "d_delta_mean": 0, 
                 "date": "2020-08-04", 
                 "cases": 3975
+            }, 
+            {
+                "deaths": 124, 
+                "d_delta": 1, 
+                "c_delta": 17, 
+                "c_delta_mean": 11, 
+                "d_delta_mean": 0, 
+                "date": "2020-08-05", 
+                "cases": 3992
             }
         ]
     }, 
@@ -31700,15 +31709,6 @@
                 "deaths": 772, 
                 "d_delta": 772, 
                 "c_delta": 15441, 
-                "c_delta_mean": 0, 
-                "d_delta_mean": 0, 
-                "date": "2020-06-05", 
-                "cases": 15441
-            }, 
-            {
-                "deaths": 772, 
-                "d_delta": 0, 
-                "c_delta": 0, 
                 "c_delta_mean": 0, 
                 "d_delta_mean": 0, 
                 "date": "2020-06-06", 
@@ -31727,8 +31727,8 @@
                 "deaths": 799, 
                 "d_delta": 27, 
                 "c_delta": 201, 
-                "c_delta_mean": 67, 
-                "d_delta_mean": 9, 
+                "c_delta_mean": 0, 
+                "d_delta_mean": 0, 
                 "date": "2020-06-08", 
                 "cases": 15642
             }, 
@@ -32244,6 +32244,15 @@
                 "d_delta_mean": 1, 
                 "date": "2020-08-04", 
                 "cases": 19390
+            }, 
+            {
+                "deaths": 1012, 
+                "d_delta": 1, 
+                "c_delta": 91, 
+                "c_delta_mean": 153, 
+                "d_delta_mean": 1, 
+                "date": "2020-08-05", 
+                "cases": 19481
             }
         ]
     }
